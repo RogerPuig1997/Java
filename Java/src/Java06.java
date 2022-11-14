@@ -1,4 +1,4 @@
-public class Main  {
+public class Java06  {
 	public static void main(String[] args) {
 		byte Byte = (byte) 132;
 		System.out.println(Byte);

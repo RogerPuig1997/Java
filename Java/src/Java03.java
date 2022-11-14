@@ -1,4 +1,4 @@
-public class Main {
+public class Java03 {
 	public static void main (String[] args) {
 		System.out.println("Hello \nworld");
 		System.out.println("\tTabulado");

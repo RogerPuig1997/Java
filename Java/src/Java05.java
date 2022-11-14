@@ -1,4 +1,4 @@
-public class Main {
+public class Java05 {
 	public static void main (String[] args) {
 		//Lógicos
 		boolean Boolean = true;

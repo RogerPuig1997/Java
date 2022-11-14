@@ -1,4 +1,4 @@
-public class Main {
+public class Java04 {
 	public static void main (String[] args) {
 		// Entrada
 		int num1 = 10;
