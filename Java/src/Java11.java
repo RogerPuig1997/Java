@@ -1,16 +1,16 @@
 public class Java11  {
 	public static void main(String[] args) {
 		int numero = 0;
-		incrementar(numero);
-		decrementar(numero);
+		System.out.println(incrementar(numero));
+		System.out.println(decrementar(numero));
 	}
-	public static void incrementar (int numero) {
+	public static int incrementar (int numero) {
 		numero++;
-		System.out.println(numero);
+		return numero;
 	}
-	public static void decrementar (int numero) {
+	public static int decrementar (int numero) {
 		numero--;
 		numero--;
-		System.out.println(numero);
+		return numero;
 	}
 }
