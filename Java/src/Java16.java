@@ -1,3 +1,4 @@
+import java.io.InputStream;
 import java.util.Scanner; 
 
 public class Java16 {
@@ -24,8 +25,10 @@ public class Java16 {
 		
 		//2
 		System.out.println("Introduce la temperatra");
-		Scanner sc = new Scanner(System.in);
+		InputStream inputStream = System.in;
+		Scanner sc = new Scanner(inputStream);
 		float temp = sc.nextFloat();
+		System.out.println("Temperatura: "+temp);
 		if (temp < 5) {
 			System.out.println("Clima frío Polar");
 		}
