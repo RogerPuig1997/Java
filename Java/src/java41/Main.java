@@ -16,7 +16,6 @@ public class Main {
 		String player2 = sc.nextLine();
 		
 		String[] game = {" "," "," "," "," "," "," "," "," "};
-		System.out.println(game.length);
 		
 		System.out.println("|"+game[0]+"|"+"|"+game[1]+"|"+"|"+game[2]+"|\n"+"|"+game[3]+"|"+"|"+game[4]+"|"+"|"+game[5]+"|\n"
 				+"|"+game[6]+"|"+"|"+game[7]+"|"+"|"+game[8]+"|");
@@ -84,7 +83,7 @@ public class Main {
 			return true;
 		} else if (game[0] == "X" && game[4] == "X" && game[8] == "X"){
 			return true;
-		} else if (game[3] == "X" && game[4] == "X" && game[6] == "X"){
+		} else if (game[2] == "X" && game[4] == "X" && game[6] == "X"){
 			return true;
 		}else {
 			return false;
@@ -105,7 +104,7 @@ public class Main {
 			return true;
 		} else if (game[0] == "O" && game[4] == "O" && game[8] == "O"){
 			return true;
-		} else if (game[3] == "O" && game[4] == "O" && game[6] == "O"){
+		} else if (game[2] == "O" && game[4] == "O" && game[6] == "O"){
 			return true;
 		}else {
 			return false;
